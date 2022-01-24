@@ -64,7 +64,8 @@ Department:
 ```
 node index.js
 ```
-## Dependencies:
+## Here are some guidelines
+### Dependencies:
 
 * Use console.table to print MySQL rows to the console. There is a built-in version of console.table, but the NPM package formats the data a little better for our purposes.``` npm i console.table```
 *  Use InquirerJs NPM package to interact with the user via the command-line. ```npm i inquirer```
