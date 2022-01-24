@@ -64,11 +64,12 @@ Department:
 ```
 node index.js
 ```
+## Dependencies:
 
-### dependencies
-* ``` npm i console.table```
-* ``` npm i inquirer```
-*  ```npm i mysql2```
+* Use console.table to print MySQL rows to the console. There is a built-in version of console.table, but the NPM package formats the data a little better for our purposes.``` npm i console.table```
+*  Use InquirerJs NPM package to interact with the user via the command-line. ```npm i inquirer```
+*  Use the MySQL NPM package to connect to your MySQL database and perform queries.  ```npm i mysql2```
+
 Link to walkthrough video:
 
 
