@@ -74,6 +74,5 @@ node index.js
 ## Link to walkthrough video:
 https://github.com/EvgeniiI7/12-SQL-Employee-Tracker/issues/1#issue-1112172304
 
-
 Link to URL repository:
-
+https://github.com/EvgeniiI7/12-SQL-Employee-Tracker
