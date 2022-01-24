@@ -1,11 +1,13 @@
 # 12-SQL-Employee-Tracker
 ##
 
-Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. These interfaces are known as Content Management Systems (CMS). This application will provide a non-devloper the necessary tool to strucure its tracking by department, role and employee.
+Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
+```
 ## User Story:
 
 As a business owner, I want to be able to view and manage the departments, roles, and employees in my company so that I can organize and plan my business.
+```
 
 ## User experience:
 
@@ -37,26 +39,37 @@ Department:
 
 ### Role:
 
-id - INT PRIMARY KEY
+* id - INT PRIMARY KEY
 
-title - VARCHAR(30) to hold role title
+* title - VARCHAR(30) to hold role title
 
-salary - DECIMAL to hold role salary
+* salary - DECIMAL to hold role salary
 
-department_id - INT to hold reference to department role belongs to
+* department_id - INT to hold reference to department role belongs to
 
 ### Employee:
 
-id - INT PRIMARY KEY
+* id - INT PRIMARY KEY
 
-first_name - VARCHAR(30) to hold employee first name
+* first_name - VARCHAR(30) to hold employee first name
 
-last_name - VARCHAR(30) to hold employee last name
+* last_name - VARCHAR(30) to hold employee last name
 
-role_id - INT to hold reference to employee role
+* role_id - INT to hold reference to employee role
 
-manager_id - INT to hold reference to another employee that is manager of the current employee. This field may be null if the employee has no manager
+* manager_id - INT to hold reference to another employee that is manager of the current employee. This field may be null if the employee has no manager
 
+### The application will be invoked by using the following command:
+
+```
+node index.js
+```
+
+### dependencies
+* ``` npm i console.table```
+* ``` npm i inquirer```
+*  ```npm i mysql2```
+*  
 Link to walkthrough video:
 
 
