@@ -71,8 +71,8 @@ node index.js
 *  Use InquirerJs NPM package to interact with the user via the command-line. ```npm i inquirer```
 *  Use the MySQL NPM package to connect to your MySQL database and perform queries.  ```npm i mysql2```
 
-Link to walkthrough video:
-
+## Link to walkthrough video:
+https://github.com/EvgeniiI7/12-SQL-Employee-Tracker/issues/1#issue-1112172304
 
 
 Link to URL repository:
